@@ -1,0 +1,4 @@
+{
+    "javascript.format.insertSpaceAfterCommaDelimiter": true,
+    "editor.formatOnSave": true
+}
