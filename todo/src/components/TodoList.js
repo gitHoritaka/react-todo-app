@@ -65,7 +65,7 @@ const TodoList = () => {
             <input
               type="checkbox"
               checked={todo.isCompleted}
-              onChange={() => handle_update_task(index)}
+              onChange={() => handle_update_task(index)} //javascriptで引数を渡す際の書き方
             />
             {todo.task_name}
             {/* https://maaengineerhouse.com/archives/1246*/}
